@@ -21,10 +21,3 @@ This repository contains a Python GUI application built with Tkinter for replica
 
 - Python 3.x
 - Tkinter (usually included with Python installations)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/file-folder-replicator.git
-   cd file-folder-replicator
