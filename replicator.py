@@ -116,7 +116,7 @@ def GUI():
 
     path_frame = tk.Frame(window, bg='#f0f0f0', bd=5)
     path_frame.pack(fill=tk.X, padx=10, pady=10)
-    tk.Label(path_frame, text="File/Folder Path:", font=('Arial', 14), bg='#f0f0f0', fg='#333').pack(side=tk.LEFT, padx=5, anchor=tk.W)
+    tk.Label(path_frame, text="Path:", font=('Arial', 14), bg='#f0f0f0', fg='#333').pack(side=tk.LEFT, padx=5, anchor=tk.W)
     path_entry = tk.Entry(path_frame, width=30, font=('Arial', 14))
     path_entry.pack(side=tk.LEFT, padx=5, anchor=tk.W)
     browse_button = tk.Button(path_frame, text="Browse", command=browse, font=('Arial', 12), bg='#007BFF', fg='white')
