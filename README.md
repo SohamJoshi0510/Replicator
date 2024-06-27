@@ -13,7 +13,7 @@ This repository contains a Python GUI application built with Tkinter for replica
 ## Repository Structure
 
 - **replicator.py**: Contains the main script implementing the GUI and file/folder replication logic.
-- **README.md**: Includes instructions on installation, usage, and additional details about the project.
+- **README.md**: Includes instructions on features, usage, and additional details about the project.
 
 ## Prerequisites
 
