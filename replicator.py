@@ -26,7 +26,7 @@ def file_path_generator(file_path):
 def copy(file_path, parent=''):
     try:
         file_name = os.path.basename(file_path)
-        script_file_path = os.path.abspath(__file__)
+        script_file_path = "__main__"
         script_folder_path = os.path.dirname(script_file_path)
 
         if parent == '':
